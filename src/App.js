@@ -4,9 +4,13 @@ import NiceModal from "./components/NiceModal";
 
 function App() {
   return (
-    <>
+    <div className="flex justify-between">
       <NiceModal />
-    </>
+      <hr className="font-black" />
+      <div>
+
+      </div>
+    </div>
   );
 }
 
